@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Page  displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully closed the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31592" started-at="2022-03-02T11:32:19 IST" finished-at="2022-03-02T11:32:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31592" started-at="2022-03-02T11:32:19 IST" finished-at="2022-03-02T11:32:51 IST">
+      <class name="automationScripts.TC_002ApparelAndShoesTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:automationScripts.TC_002ApparelAndShoesTest@6392827e]" name="beforeClass" is-config="true" duration-ms="2545" started-at="2022-03-02T11:32:19 IST" finished-at="2022-03-02T11:32:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automationScripts.TC_002ApparelAndShoesTest@6392827e]" name="beforeMethod" is-config="true" duration-ms="6725" started-at="2022-03-02T11:32:22 IST" finished-at="2022-03-02T11:32:29 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page  displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in to the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="apparelAndShoes1()[pri:0, instance:automationScripts.TC_002ApparelAndShoesTest@6392827e]" name="apparelAndShoes1" duration-ms="21249" started-at="2022-03-02T11:32:29 IST" finished-at="2022-03-02T11:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apparelAndShoes1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automationScripts.TC_002ApparelAndShoesTest@6392827e]" name="afterClass" is-config="true" duration-ms="1031" started-at="2022-03-02T11:32:50 IST" finished-at="2022-03-02T11:32:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully closed the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- automationScripts.TC_002ApparelAndShoesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
